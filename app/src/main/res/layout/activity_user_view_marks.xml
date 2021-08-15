@@ -34,7 +34,6 @@
         android:fontFamily="@font/amaranth"
         android:foregroundGravity="center|center_horizontal"
         android:gravity="center_horizontal"
-        android:text="8.6"
         android:textAllCaps="true"
         android:textColor="#000000"
         android:textSize="26sp"

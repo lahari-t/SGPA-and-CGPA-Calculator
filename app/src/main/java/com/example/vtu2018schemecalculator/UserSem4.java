@@ -94,9 +94,10 @@ public class UserSem4 extends AppCompatActivity {
                                 (2 * computeLabGrade(xxL37, xxL37IA)) +
                                 (2 * computeLabGrade(xxL38, xxL38IA)))/24.0;
                         result.setText(String.format("%s", SGPA));
-                        userID = auth.getCurrentUser().getUid();
+                        double rSGPA = Math.round(SGPA * 100);
+                        rSGPA = rSGPA/100;                        userID = auth.getCurrentUser().getUid();
                         DocumentReference Ref = FirebaseFirestore.getInstance().collection("Users").document(userID);
-                        Ref.update("SEM4",SGPA);
+                        Ref.update("SEM4", rSGPA);
                     }
                 }
                 else{

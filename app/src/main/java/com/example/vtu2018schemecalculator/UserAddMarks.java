@@ -48,6 +48,13 @@ public class UserAddMarks extends AppCompatActivity {
                 openSemester5();
             }
         });
+        button = (Button)findViewById(R.id.button11);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openCGPAView();
+            }
+        });
     }
     public void openSemester1(){
         Intent intent = new Intent(this, UserSem1.class);
@@ -67,6 +74,11 @@ public class UserAddMarks extends AppCompatActivity {
     }
     public void openSemester5(){
         Intent intent = new Intent(this, UserSem5.class);
+        startActivity(intent);
+    }
+    public void openCGPAView(){
+
+        Intent intent = new Intent(this, UserViewMarksActivity.class);
         startActivity(intent);
     }
 }

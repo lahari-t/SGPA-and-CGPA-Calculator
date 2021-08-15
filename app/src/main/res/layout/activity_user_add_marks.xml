@@ -27,22 +27,7 @@
         android:layout_marginTop="136dp"
         android:layout_marginEnd="130dp"
         android:layout_marginRight="130dp"
-        android:text="TOTAL CGPA"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
-
-    <Button
-        android:id="@+id/button12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="81dp"
-        android:layout_marginLeft="81dp"
-        android:layout_marginTop="228dp"
-        android:layout_marginEnd="81dp"
-        android:layout_marginRight="81dp"
-        android:text="CGPA TO PERCENTAGE"
+        android:text="COMPUTE CGPA"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

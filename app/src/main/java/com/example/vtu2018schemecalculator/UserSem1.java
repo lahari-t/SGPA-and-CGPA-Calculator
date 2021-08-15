@@ -96,10 +96,11 @@ public class UserSem1 extends AppCompatActivity {
                                 (computeLabGrade(xxL16, xxL16IA)) +
                                 (computeLabGrade(xxL17, xxL17IA)))/20.0;
                         result.setText(String.format("%s", SGPA));
-                        //String strSGPA = SGPA+"";
+                        double rSGPA = Math.round(SGPA * 100);
+                        rSGPA = rSGPA/100;
                         userID = auth.getCurrentUser().getUid();
                         DocumentReference Ref = FirebaseFirestore.getInstance().collection("Users").document(userID);
-                        Ref.update("SEM1",SGPA);
+                        Ref.update("SEM1", rSGPA);
 
                     }
                 }
