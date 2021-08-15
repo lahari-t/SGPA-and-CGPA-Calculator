@@ -13,12 +13,15 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class UserSem4 extends AppCompatActivity {
     Button button;
     EditText Subject1, Subject2, Subject3, Subject4, Subject5, Subject6, Lab1, Lab2 , Subject1IA, Subject2IA, Subject3IA, Subject4IA, Subject5IA, Subject6IA, Lab1IA, Lab2IA, Kannada, KannadaIA;
     TextView result;
     FirebaseFirestore fstore;
-    private FirebaseAuth auth;
+    FirebaseAuth auth;
     String userID;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

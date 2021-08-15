@@ -62,11 +62,11 @@ public class UserAddMarks extends AppCompatActivity {
         startActivity(intent);
     }
     public void openSemester4(){
-        Intent intent = new Intent(this, Sem4_SGPA.class);
+        Intent intent = new Intent(this, UserSem4.class);
         startActivity(intent);
     }
     public void openSemester5(){
-        Intent intent = new Intent(this, Sem5_SGPA.class);
+        Intent intent = new Intent(this, UserSem5.class);
         startActivity(intent);
     }
 }
