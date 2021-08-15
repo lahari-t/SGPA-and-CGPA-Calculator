@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vtu2018schemecalculator">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VTU2018SCHEMECALCULATOR">
+        <activity android:name=".UserCgpa"></activity>
+        <activity android:name=".UserSem5" />
+        <activity android:name=".UserSem4" />
+        <activity android:name=".UserSem2" />
+        <activity android:name=".UserSem3" />
+        <activity android:name=".UserSem1" />
+        <activity android:name=".UserAddMarks" />
+        <activity android:name=".UserViewMarksActivity" />
+        <activity android:name=".UserHomeScreen" />
+        <activity android:name=".Sem3_SGPA" />
+        <activity android:name=".Sem6_SGPA" />
+        <activity android:name=".Sem5_SGPA" />
+        <activity android:name=".Sem4_SGPA" />
+        <activity android:name=".SEM2_SGPA" />
+        <activity android:name=".Sem1_SGPA" />
+        <activity android:name=".ProceedActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

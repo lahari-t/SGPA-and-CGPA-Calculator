@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "VTU 2018 SCHEME CALCULATOR"

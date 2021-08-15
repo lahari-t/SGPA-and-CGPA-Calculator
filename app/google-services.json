@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "828534018945",
+    "project_id": "vtu-2018-scheme-calculator",
+    "storage_bucket": "vtu-2018-scheme-calculator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828534018945:android:52edde7fe22ce03fd1ce80",
+        "android_client_info": {
+          "package_name": "com.example.vtu2018schemecalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828534018945-fqptma7r4o4puf35enncg5ne4d6bscvq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOZM_bXGjbFRvt3iftRfcLvs2l5g6L0WQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828534018945-fqptma7r4o4puf35enncg5ne4d6bscvq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
